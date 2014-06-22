@@ -67,7 +67,7 @@ You should create one R script called run_analysis.R that does the following.
 
 10. Verify that the resulting dataset has 180 records, 30 subjects with 6 activities and 79 measurements
 
-**Write the resulting tidy dataset to a csv file in the working directory**
+**Write the resulting tidy dataset to a .txt file in the working directory**
 
 11. Write the **'tidy_dataset.txt'** file to the working directory. This file is of a dimension of 180x81  with  `,`-separation,  `.`-decimals, header row and no row.names.
 

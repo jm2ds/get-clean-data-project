@@ -26,7 +26,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The dataset includes the following files:
 
 * 'README.txt'
-* 'features_info.txt': Shows information about the variables used on the feature vector.
+* 'features_info.txt': Shows information about the measurements used on the feature vector.
 * 'features.txt': List of all features.
 * 'activity_labels.txt': Links the class labels with their activity name.
 * 'train/X_train.txt': Training set.
@@ -40,9 +40,9 @@ The dataset includes the following files:
 -----------------------------------------------
 
 1. The Training and Test Data sets were merged to create a single dataset.
-2. The combined dataset has been cleaned to include only the mean and std variables from the original data sets with the variable labels from the **'features.txt'** file. The variable labels were cleaned to remove **()** and **-**.
-3. The activity labels and subjects were added to the combined dataset creating a dataset with 10299 observations, 30 subjects, 6 activities and 79 variables
-4. A new tidy data set was created that averaged each variable by activity and subject. The resulting data set has 180 observations that have been averaged for 30 subjects and 6 activities across 79 variables.
+2. The combined dataset has been cleaned to include only the mean and std measurements from the original data sets with the measurement labels from the **'features.txt'** file. The measurement labels were cleaned to remove **()** and **-**.
+3. The activity labels and subjects were added to the combined dataset creating a dataset with 10299 observations, 30 subjects, 6 activities and 79 measurements
+4. A new tidy data set was created that averaged each measurement by activity and subject. The resulting data set has 180 observations that have been averaged for 30 subjects and 6 activities across 79 measurements.
 
 Additional information on the transformations made to the Data Sets can be found in the **'README.md'** file.
 

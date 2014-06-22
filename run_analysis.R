@@ -87,7 +87,7 @@ head(tidy)
 dim(tidy)
 summary(tidy)
 
-# - Writes the resulting tidy dataset to a csv file in the working directory
+# - Writes the resulting tidy dataset to a .txt file in the working directory
 
 write.table(tidy, "tidy_dataset.txt", sep=",", row.names=FALSE)
 
